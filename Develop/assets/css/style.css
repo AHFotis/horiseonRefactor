@@ -2,6 +2,7 @@
 Reordered to follow HTML structure
 Consolidated for clarity */
 
+/* Full Document Styling */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -12,6 +13,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Styling */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -22,13 +24,13 @@ header {
 header h1 {
     display: inline-block;
     font-size: 48px;
-}
+} 
 
-header .seo {
+header span {
     color: #d9dcd6;
 }
 
-nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,16 +38,22 @@ nav {
     font-size: 20px;
 }
 
-nav a {
+nav ul {
     list-style-type: none;
+}
+
+nav li {
     display: inline-block;
     margin-left: 25px;
+}
+
+nav a {
     color: #ffffff;
     text-decoration: none;
 }
 
-
-figure {
+/* Figure Styling */
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -54,13 +62,14 @@ figure {
     background-position: center;
 }
 
+/* Main Body Styling */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-main section{
+main article{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -78,8 +87,10 @@ p {
     font-size: 16px;
 }
 
+/* Main Article Specific Styles*/
 
-#search-engine-optimization img {
+#search-engine-optimization img,
+#social-media-marketing img  {
     max-height: 200px;
     float: left;
     margin-right: 25px;
@@ -91,12 +102,7 @@ p {
     margin-left: 25px;
 }
 
-#social-media-marketing img {
-    max-height: 200px;
-    float: left;
-    margin-right: 25px;
-}
-
+/* Aside Styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -124,6 +130,7 @@ aside img{
     max-width: 150px;
 }
 
+/* Footer Styling */
 footer {
     padding: 30px;
     clear: both;
