@@ -24,7 +24,7 @@ To meet accessibility standards:
   - Selectors renamed and consolidated for clarity.
 
 ## Credits
-This source code was created by a development team within Horiseon Marketing and Trilogy Education Services.
+This source code was created by Horiseon Social Solution Services Inc &copy; 2019 and Trilogy Education Services.
 
 ## License
 MIT License
