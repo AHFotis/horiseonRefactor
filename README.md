@@ -1,10 +1,32 @@
 # Horiseon Refactor
-This Repository is where I refactored code from Horiseon's homepage to make both the page more user friendly and accessible, and the HTML and CSS clean, concise, and readable for other collaborators.
+This Repository contains refactored code for marketing agency, Horiseon. This refactor makes Horiseon's homepage both more user-friendly and accessible. HTML and CSS have also been cleaned for collaborator readbility and access.
 
-# Refactored HTML Details
+## Reference
+The following image shows the page's intended appearance and functionality.
+![Alt Text](Reference/01-html-css-git-homework-demo.png)
+
+## Criteria
+To meet accessibility standards:
+- [x] Semantic HTML
+- [x] Logical HTML structure indepenedent of styling
+- [x] Accessible alt attributes in image elements
+- [x] Heading attributes fall into sequential order.
+- [x] Title element contains concise, descriptive title.
+
+### Refactored HTML Details
   - All HTML revised to reflect industry standard.
   - Faulty links debugged.
+  - Semantic tags employed.
+  - Alts added to imgs for user accessibility.
   
-# Refactored CSS Details
+### Refactored CSS Details
   - Reordered to follow HTML structure.
   - Selectors renamed and consolidated for clarity.
+
+## Credits
+This source code was created by a development team within Horiseon Marketing and Trilogy Education Services.
+
+## License
+MIT License
+
+Copyright (c) [2020] [Anna Hickey Fotis]
