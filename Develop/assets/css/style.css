@@ -61,7 +61,7 @@ figure {
     background-position: center;
 }
 
-/* Main Body Styling */
+/* Main Content Styling */
 main {
     width: 75%;
     display: inline-block;
@@ -115,7 +115,7 @@ aside {
     background-color: #2589bd;
 }
 
-aside section {
+section {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -125,7 +125,7 @@ aside h3 {
     text-align: center;
 }
 
-aside img{
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
